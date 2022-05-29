@@ -10,43 +10,56 @@ Universal Styling
     border: 0;
 }
 
-body {
+header {
+    background: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom: 1.5px solid gray;
+}
+
+nav {
+    margin-right: 350px;
+    font-size: 22px;
+    float: right;
+}
+
+main {
     background-image: url(https://i.ibb.co/d4M74Cd/moroccan-flower.png);
-}
-
-.container {
-    max-width: 600px;
-    background: white;
-    margin: 75px;
-    padding: 20px;
-    float: left;
-}
-
-.sidebar {
-    max-width: 200px;
-    background: white;
-    margin: 50px;
-    padding: 20px;
-    float: left;
 }
 
 h1, h2 {
     margin: 20px 0;
     color: #2d5f73;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 25px;
+    border-bottom: 1.5px solid gray;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 1.5px solid gray;
+}
+
+.home {
+    background-color: #2d5f73;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+.link {
+    color: #2d5f73;
 }
 
 main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
     line-height: 140%;
     margin-bottom: 20px;
-}
-
-header > nav {
-    float: right;
-}
-
-section {
-    float: left;
-    max-width: 900px;
 }
 
 main::after {
@@ -56,19 +69,43 @@ main::after {
 }
 
 .headshot {
+    padding-right: 12px;
     float: left;
 }
 
-.link {
-    color: #2d5f73;
+.home, .link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    margin-right: 5px;
     text-decoration: none;
+    margin-right: 15px;
+}
+
+.container {
+    max-width: 450px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    padding: 15px;
+    float: left;
+}
+
+.sidebar {
+    max-width: 200px;
+    background: white;
+    margin-top: 20px;
+    margin-right: 350px;
+    text-align: center;
+    padding: 15px;
+    float: right;
 }
 
 footer {
     background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 15px;
+    border-top: 5px solid #2d5f73;
 }
