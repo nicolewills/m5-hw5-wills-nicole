@@ -12,7 +12,7 @@ Universal Styling
 
 header {
     background: white;
-    margin-top: 30px;
+    margin-top: 25px;
     padding: 10px;
     border-bottom: 1.5px solid gray;
 }
@@ -28,13 +28,14 @@ main {
 }
 
 h1, h2 {
-    margin: 20px 0;
+    margin: .5px 0px 15px;
     color: #2d5f73;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 h1 {
     font-size: 25px;
+    font-weight: bold;
     border-bottom: 1.5px solid gray;
 }
 
@@ -53,13 +54,14 @@ h2 {
 
 .link {
     color: #2d5f73;
+    margin-right: 15px;
 }
 
 main p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    line-height: 140%;
-    margin-bottom: 20px;
+    line-height: 200%;
+    margin-bottom: 4px;
 }
 
 main::after {
@@ -74,18 +76,15 @@ main::after {
 }
 
 .home, .link {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
     text-decoration: none;
-    margin-right: 15px;
 }
 
 .container {
     max-width: 450px;
     background: white;
-    margin-top: 20px;
-    margin-left: 350px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 350px;
     padding: 15px;
     float: left;
 }
@@ -93,11 +92,15 @@ main::after {
 .sidebar {
     max-width: 200px;
     background: white;
-    margin-top: 20px;
-    margin-right: 350px;
+    margin: 20px 350px 0px 0px;
     text-align: center;
     padding: 15px;
     float: right;
+}
+
+.one, .two {
+    padding-right: 20px;
+    border-right: 2px solid gray;
 }
 
 footer {
